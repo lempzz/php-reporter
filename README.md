@@ -43,7 +43,7 @@ Add `Testomatio\Reporter\PHPUnit` listener to `phpunit.xml` or `phpunit.dist.xml
 
 ```xml
 <listeners>
-    <listener class="Testomatio\Reporter\PHPUnit" file="vendor/testomatio/php-reporter/src/PHPUnit.php" />
+    <listener class="Testomatio\Reporter\PHPUnit" file="vendor/testomatio/reporter/src/PHPUnit.php" />
 </listeners>
 ```
 Run tests and provide `TESTOMATIO` API key as environment variable:
